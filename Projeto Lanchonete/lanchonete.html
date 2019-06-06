@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto Lanchonete</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <div class='container '>
+      <main>
+            <h2>Lanchonete</h2>
+            <h3>Lanches</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="4" id="botaoXBurguer">X-Burguer <br> R$ 4,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="4" id="botaoXSalada">X-Salada <br> R$4,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="5" id="botaoXEgg">X-EGG <br> R$5,00</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default"  value="7" id="botaoXTudo">X-Tudo <br> R$ 7,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="3" id="botaoBauru">Bauru <br> R$3,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="3" id="botaoMisto">Misto <br> R$3,00</button>
+              </div>
+            </div>
+
+            <h3>Bebidas</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default"  value="2" id="botaoAgua">Água <br> R$ 2,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="3" id="botaoSuco">Suco Natural <br> R$3,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="4" id="botaoCocaCola">Coca-Cola <br> R$4,00</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default"  value="3" id="botaoTubaina">Tubaina <br> R$ 3,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="3" id="botaoPepsi">Pepsi <br> R$3,00</button>
+              </div>
+              <div class="col-md-4">
+                <button type="button" class="btn btn-large btn-block btn-default" value="2" id="botaoDolly">Dolly <br> R$2,00</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                    <button type="button" class="btn btn-large botao btn-success botao" id="calcular">Fechar Conta</button>
+              </div>
+            </div>
+
+            <table class="table table-bordered" id="tabelaProduto">
+              <tr>
+                <th>Produto</th>
+                <th>Valor</th>
+              </tr>
+            </table>
+
+            <div class="row">
+              <div class="col-md-2">
+                <table class="table table-bordered tabelaValor">
+                    <tr>
+                      <th>Valor Total:</th>
+                    </tr>
+                    <tr>
+                      <td id="resultado"> </td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+
+      </main>
+    </div>
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/principal.js"></script>
+  </body>
+</html>
